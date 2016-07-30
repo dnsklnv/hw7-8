@@ -160,12 +160,12 @@
     margin-right: -108px;
   }
   .header__center__phone-buttom {
-    width: 54px;
-    height: 54px;
+    /*width: 54px;*/
+    /*height: 54px;*/
     margin-top: -36px;
-    margin-right: 86px;
-
-    background-size: 109px;
+    box-sizing: border-box;
+    z-index: 150;
+    display: none;
   }
   .header__center__buttom__menu {
     position: relative;
